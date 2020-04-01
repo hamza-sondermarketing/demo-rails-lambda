@@ -9,7 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
-gem "mysql2", "~> 0.5.2"
+gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 # gem 'puma', '~> 3.7'
 # lambda puma openssl error https://gist.github.com/tongueroo/09d358fd3bd556be5dce3fe68cf46b40
